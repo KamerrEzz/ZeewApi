@@ -263,7 +263,7 @@ let img = img.blur(img) // Imagenes
 .send({files: [img]})
 
   // Opcion 2 > Uso de Attchment
-let {MessageAttachment} = require('discord.js')
+let {Attachment} = require('discord.js')
 let attchment = new Attachment(img)
 
 .send(attchment)
